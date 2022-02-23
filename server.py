@@ -12,7 +12,7 @@ def root():
 #Pārbaudes lapa, lai saprastu, ka kods vispār strādā
 @app.route('/health')
 def health():
-  return "OK"
+  return "11"
 
 if __name__ == '_main_':
   app.run(debug="true")
